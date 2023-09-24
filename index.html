@@ -20,8 +20,8 @@
     
     <main>
         <div id="title" class="content-title">
-            <div>
-                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            <div class="content-judul">
+                <h1>Top Rated E-Groceries Shop in <br> <center>Indonesia</center></h1>
             </div>
             <div>
                 <span>Everyday with best ingredients</span>
@@ -30,11 +30,53 @@
         <div id="content" class="content">
             <div id="content-left" class="content-left">
                 <div id="content-image" class="content-image">
-                    <img class="image1" src="asset/placeholder-image.png" alt="slider image">
-                    <span>Fresh Everyday</span>
+                    <div class="slider">
+						<div class="slides">
+							<input type="radio" name="radio-btn" id="radio1">
+							<input type="radio" name="radio-btn" id="radio2">
+							<input type="radio" name="radio-btn" id="radio3">
+							<input type="radio" name="radio-btn" id="radio4">
+
+							<div class="slide first">
+								<img src="asset/Arthur good.png" width="500px" height="500px" alt="">
+							</div>
+							<div class="slide">
+								<img src="asset/stars 7.jpg" width="500px" height="500px" alt="">
+							</div>
+							<div class="slide">
+								<img src="asset/Unity.jpg" width="500px" height="500px" alt="">
+							</div>
+							<div class="slide">
+								<img src="asset/placeholder-image.png" width="500px" height="500px" alt="">
+							</div>
+							<div class="navigation-auto">
+								<div class="auto-btn1"></div>
+								<div class="auto-btn2"></div>
+								<div class="auto-btn3"></div>
+								<div class="auto-btn4"></div>
+							</div>
+						</div>
+                    </div>
+                </div>
+                <br>
+                <span><center>"Setiap hari beli sayur buah yang fresh disini"</center></span>
+                <div class="content-review">
+                    <div class="review-image">
+                        <img src="asset/Arthur good.png" width="100px" height="100px" alt="profile image">
+                    </div>
+                    <div class="review-name">
+                        <p class="name1">Florence Hughes<p>
+                        <p class="name2">Ibu Rumah Tangga, 28</p>
+                    </div>
                 </div>
             </div>
+
             <div id="content-right" class="content-right">
+                <div id="content-right-title" class="content-right-title">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 <br> jam setelah data kami terima.</p>
+                </div>
+                
                 <form class="content-form">
                     <label for="your-name">Your Name:</label>
                     <input class="input-form" type="text" name="your-name" placeholder="First and Last Name">
@@ -47,10 +89,9 @@
                         <option>Football</option>
                         <option>Badminton</option>
                     </select>
-                    <button id="button" class="button" type="submit">Send</button>
+                    <button id="button" class="button" type="submit">SEND</button>
                 </form>
-            </div>
-            
+            </div> 
         </div>
     </main>
     <div id="our-products">
