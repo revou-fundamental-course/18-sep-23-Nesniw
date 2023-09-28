@@ -493,6 +493,7 @@ ol ol {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+  /*Smallest Pixel*/
   @media (min-width: 475px) {
     body{
       max-width: 475px;
@@ -514,7 +515,12 @@ ol ol {
     .content-review{
       padding: 40px 5px 50px 50px;
       margin-left: 1px;
-  }
+
+    }
+
+    .review-image{
+      margin-left: -3em;
+    }
 
     .content{
       width: 100%; 
@@ -549,6 +555,7 @@ ol ol {
       width: 30%;
       height: 30%;
     }
+
 
     .content-right-title{
       padding: 0.5em 1em 0.1em 1.5em;
@@ -632,9 +639,15 @@ ol ol {
     }
   }
 
+  /*xs Pixel*/
   @media (min-width: 640px) {
+
     body{
       max-width: 475px;
+    }
+
+    .review-image{
+      margin-left: -1em;
     }
 
     .content-judul{
@@ -772,9 +785,14 @@ ol ol {
     }
   }
 
+  /*s Pixel*/
   @media (min-width: 768px) {
     body{
       max-width: 640px;
+    }
+    
+    .review-image{
+      margin-left: 0.5em;
     }
 
     .content-judul{
@@ -904,6 +922,7 @@ ol ol {
   
   }
 
+  /*m Pixel*/
   @media (min-width: 1024px) {
     body{
       max-width: 768px;
@@ -1003,9 +1022,14 @@ ol ol {
     }
   }
 
+  /*l Pixel*/
   @media (min-width: 1280px) {
     body{
       max-width: 1024px;
+    }
+
+    .review-image{
+      margin-left: 3em;
     }
 
     .content{
@@ -1059,10 +1083,24 @@ ol ol {
     }
   }
 
+  /*Largest Pixel*/
   @media (min-width: 1536px) {
+
     body{
       max-width: 1280px;
       font-size: 16px;
+    }
+
+    .review-image{
+      margin-left: 6em;
+    }
+
+    .content{
+      gap: 1em;
+    }
+
+    .content-right{
+      margin-left: -4em;
     }
 
     .content-right-title{
